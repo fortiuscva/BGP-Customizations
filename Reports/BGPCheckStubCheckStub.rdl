@@ -765,6 +765,9 @@
               </Paragraphs>
               <Height>0.16656in</Height>
               <Width>3.087in</Width>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <Style>
                 <BackgroundColor>White</BackgroundColor>
                 <VerticalAlign>Bottom</VerticalAlign>
@@ -821,6 +824,9 @@
               <Height>0.16656in</Height>
               <Width>1.02544in</Width>
               <ZIndex>2</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <Style>
                 <BackgroundColor>White</BackgroundColor>
                 <VerticalAlign>Bottom</VerticalAlign>
@@ -848,6 +854,9 @@
               <Height>0.16656in</Height>
               <Width>1.02835in</Width>
               <ZIndex>3</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <Style>
                 <BackgroundColor>White</BackgroundColor>
                 <VerticalAlign>Bottom</VerticalAlign>
@@ -886,7 +895,7 @@
               <Height>0.16654in</Height>
               <Width>0.90945in</Width>
               <Visibility>
-                <Hidden>=iif(ReportItems!CheckStyle.Value = 0, true, false)</Hidden>
+                <Hidden>true</Hidden>
               </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style>
@@ -970,7 +979,7 @@
               <Top>2.67887in</Top>
               <Left>4.31989in</Left>
               <Height>0.16654in</Height>
-              <Width>1.96172in</Width>
+              <Width>1.62005in</Width>
               <ZIndex>3</ZIndex>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style>
@@ -998,9 +1007,9 @@
                 </Paragraph>
               </Paragraphs>
               <Top>2.67887in</Top>
-              <Left>6.54428in</Left>
+              <Left>5.26195in</Left>
               <Height>0.16654in</Height>
-              <Width>1.02659in</Width>
+              <Width>2.30892in</Width>
               <ZIndex>4</ZIndex>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style>
@@ -1221,6 +1230,9 @@
               <Height>0.16654in</Height>
               <Width>2.48031in</Width>
               <ZIndex>13</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style>
                 <BackgroundColor>White</BackgroundColor>
@@ -1246,6 +1258,9 @@
               <Height>0.16654in</Height>
               <Width>2.48031in</Width>
               <ZIndex>14</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style />
             </Textbox>
@@ -1269,6 +1284,9 @@
               <Height>0.16654in</Height>
               <Width>2.48031in</Width>
               <ZIndex>15</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style />
             </Textbox>
@@ -1292,6 +1310,9 @@
               <Height>0.16654in</Height>
               <Width>2.48031in</Width>
               <ZIndex>16</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style />
             </Textbox>
@@ -1315,6 +1336,9 @@
               <Height>0.16654in</Height>
               <Width>2.48031in</Width>
               <ZIndex>17</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style />
             </Textbox>
@@ -1450,6 +1474,9 @@
               <Height>0.16654in</Height>
               <Width>0.82795in</Width>
               <ZIndex>23</ZIndex>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
               <Style />
             </Textbox>
             <Textbox Name="textbox8">
@@ -1473,7 +1500,7 @@
               <Width>0.90945in</Width>
               <ZIndex>24</ZIndex>
               <Visibility>
-                <Hidden>=iif(isnothing(Choose(1,Split(Cstr(ReportItems!FooterInfo.Value), Chr(177)))), true ,false)</Hidden>
+                <Hidden>true</Hidden>
               </Visibility>
               <DataElementOutput>NoOutput</DataElementOutput>
               <Style />
